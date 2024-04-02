@@ -8,7 +8,7 @@ function Navbar() {
     return (
         <div className={styles.navbar}>
             <div className={styles.boxH1}>
-                <Link to="/home">GLOBAL </Link>
+                <Link to="/">GLOBAL </Link>
             </div>
         </div>
     )
