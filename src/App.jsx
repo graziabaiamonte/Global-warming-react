@@ -14,7 +14,7 @@ import { BrowserRouter, Routes, Route,  } from 'react-router-dom';
 function App() {
   return (
     <div className={styles.appPage}>
-      <BrowserRouter>
+      <BrowserRouter  basename="/React-Project">
         <Navbar />
         <Routes>
           <Route index element={<Home />} />
