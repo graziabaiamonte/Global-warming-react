@@ -8,7 +8,7 @@ import linkedinUrl from '../../assets/linkedin.svg';
 function Footer() {
     return (
         <div className={styles.footer}>
-            <p>&#169; 2 All Rights Reserved | Grazia Baiamonte </p>
+            <p>&#169; 2024 All Rights Reserved | Grazia Baiamonte </p>
 
             <div>
                 <a href="https://www.instagram.com/_grazia_baiamonte_/" target="_blank" rel="noopener">
