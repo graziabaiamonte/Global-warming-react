@@ -1,0 +1,57 @@
+.boxH2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bodyBox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+.boxLegend,
+.boxInformation {
+    padding: 20px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 30px;
+}
+
+.boxInformation {
+    text-align: center;
+    font-size: 16px;
+    max-width: 70%;
+}
+
+.boxLegend {
+    color: rgb(86, 86, 86);
+    max-width: 30%;
+    background-color: rgb(255, 245, 233);
+
+}
+
+.boxLegend h3 {
+    color: black;
+}
+
+.definition {
+    color: rgb(9, 9, 27);
+    font-weight: 600;
+}
+
+@media only screen and (max-width:768px) {
+    .boxLegend {
+        max-width: 50%;
+    }
+
+    .boxInformation {
+        max-width: 90%;
+    }
+}
