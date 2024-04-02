@@ -44,7 +44,7 @@ function ApiPolar() {
     };
 
     return (
-        <div className='boxMain'>
+        <div className={styles.boxMain}>
             {arcticData ? (
                 <div className={styles.boxGraphic}>
                   
