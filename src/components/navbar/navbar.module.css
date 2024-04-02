@@ -16,14 +16,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
-
+    padding: 50px;
 }
 
 .textH1 {
     color: white;
-    font-size: 34px;
+    font-size: 54px;
     text-decoration: none;
+    font-weight: 600;
+
 }
 
 .textH1:hover {
