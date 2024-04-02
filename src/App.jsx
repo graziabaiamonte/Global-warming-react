@@ -17,7 +17,7 @@ function App() {
       <BrowserRouter  basename="/React-Project">
         <Navbar />
         <Routes>
-          <Route index element={<Home />} />
+          <Route path='home'index element={<Home />} />
           <Route path='temperature' element={<Temperature />} />
           <Route path='co2' element={<Co2 />} />
           <Route path='methane' element={<Methane />} />
