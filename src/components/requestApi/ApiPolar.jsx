@@ -31,13 +31,15 @@ function ApiPolar() {
         return Object.keys(data)
             .filter(yearMonth => data[yearMonth].value >= 10 && data[yearMonth].value <= 30)
             .map(yearMonth => {
-                const [year, month] = yearMonth.split(',');
+                
+                const year = yearMonth.slice(0, 4);
+                const month = yearMonth.substring(4);  
                 return {
-                    yearMonth,
-                    year,
-                    month,
-                    value: data[yearMonth].value,
-                    anom: data[yearMonth].anom,
+                    yearMonth: `${year}.${month}`, 
+                    year, 
+                    month, 
+                    value: data[yearMonth].value, 
+                    anom: data[yearMonth].anom, 
                     monthlyMean: data[yearMonth].monthlyMean
                 };
             });
@@ -47,10 +49,8 @@ function ApiPolar() {
         <div className={styles.boxMain}>
             {arcticData ? (
                 <div className={styles.boxGraphic}>
-                  
 
                     <GraphicData data={formatData(arcticData)} dataKeyX={"year"} dataKey1={"value"} dataKey2={"anom"} dataKey3={"monthlyMean"} />
-
 
                     <div className={styles.graphicLegend}>
                         <p>x : Year</p>

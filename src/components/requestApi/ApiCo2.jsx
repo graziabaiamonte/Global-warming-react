@@ -39,7 +39,7 @@ function ApiCo2() {
             {co2Data ? (
                 <div className={styles.boxGraphic}>
                
-                    <GraphicData data={co2Data} dataKey0={"date"} dataKey1={"cycle"} dataKey2={"trend"} />
+                    <GraphicData data={co2Data} dataKeyX={"date"} dataKey1={"cycle"} dataKey2={"trend"} />
 
                     <div className={styles.graphicLegend}>
                         <p>x : Year</p>
