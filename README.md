@@ -4,7 +4,7 @@ This project is a web app built with Vite and React.
 Represents dashboards to view data on global warming. 
 To create the graphs I used Recharts.
 
-Visit the  [website](https://graziabaiamonte.github.io/Global-warming-react)
+Visit the  [website](https://graziabaiamonte.github.io/Global-warming-react/)
 
 # React + Vite
 
