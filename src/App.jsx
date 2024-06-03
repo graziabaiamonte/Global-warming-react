@@ -1,4 +1,3 @@
-
 import Navbar from './components/navbar/Navbar';
 import Home from './components/home/Home';
 import Temperature from './components/temperature/Temperature';
@@ -7,9 +6,7 @@ import Methane from './components/methane/Methane';
 import NitrousOxide from './components/nitrousOxide/NitrousOxide';
 import PolarIce from './components/polarIce/PolarIce';
 import styles from './components/home/home.module.css';
-
 import { BrowserRouter, Routes, Route,  } from 'react-router-dom';
-
 
 function App() {
   return (

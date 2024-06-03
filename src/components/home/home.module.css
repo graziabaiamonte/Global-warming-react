@@ -1,9 +1,13 @@
+body {
+  margin: 0
+}
+
 .appPage {
   background-image: url(https://images.unsplash.com/photo-1634176866089-b633f4aec882?q=80&w=3400&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
+} 
 
 .homeBox {
   display: flex;
@@ -23,7 +27,7 @@
   width: 70%;
   filter: blur(0);
   transition: transform 0.5s ease, filter 0.5s ease;
-
+  border-radius: 20px;
 }
 
 .mainBox:nth-child(odd) {
@@ -50,7 +54,6 @@
   from {
     right: -1000px;
   }
-
   to {
     right: 0;
   }
@@ -64,7 +67,6 @@
   transform: scale(0.9, 0.9);
 }
 
-
 .mainBox::before {
   content: '';
   position: absolute;
@@ -75,17 +77,15 @@
   background-color: rgba(0, 0, 0, 0);
   transition: background-color 0.3s ease;
   z-index: 1;
-
 }
 
 .mainBox:hover::before {
   background-color: rgba(0, 0, 0, 0.5);
-  /* Opacità al 50% */
 }
 
 .mainBox:hover .link {
   /*  ingrandisce solo il testo e non il box */
-  transform: scale(1.5);
+  transform: scale(1.2);
   transition: 0.5s ease;
 }
 
