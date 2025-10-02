@@ -7,6 +7,5 @@ Visit the  [demo](https://graziabaiamonte.github.io/Global-warming-react/)
 
 ## 🚀 Tech Stack
 - React + Vite 
-- JavaScript / JSX
-- CSS / responsive styling
-- Recharts – charting library for interactive data visualizations
+- JSX
+- Recharts(charting library for interactive data visualizations)
