@@ -9,3 +9,7 @@ Visit the  [demo](https://graziabaiamonte.github.io/Global-warming-react/)
 - React + Vite 
 - JSX
 - Recharts(charting library for interactive data visualizations)
+
+
+![Home Page](src/assets/homepage_global_warming.png)
+![Detail Page](src/assets/inner_page_global_warming.png)
